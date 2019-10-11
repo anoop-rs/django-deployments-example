@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{%extends "basic_app/base.html"%}
+{%load my_extras%}
+{%block body_block%}
+<h2>Welcome to index</h2>
+<!-- lower is a function to convert the text into lower case -->
+{{text|cut_up:"World"}}
+<br>
+{{number|add:"99"}}
+{%endblock%}
